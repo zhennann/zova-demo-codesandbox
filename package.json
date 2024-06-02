@@ -1,0 +1,50 @@
+{
+  "name": "zova-ui-empty",
+  "version": "5.0.97",
+  "description": "A vue3 empty framework with ioc",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "zhennann <zhen.nann@icloud.com>",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc --noEmit --project tsconfig.vue-tsc.json",
+    "preview": "vite preview",
+    "tsc": "vue-tsc --noEmit --project tsconfig.vue-tsc.json",
+    "lint": "eslint . --fix --ignore-path .gitignore"
+  },
+  "keywords": [
+    "nodejs",
+    "full-stack",
+    "workflow-engine",
+    "vue3",
+    "ioc",
+    "zova"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cabloy/zova.git"
+  },
+  "homepage": "https://github.com/cabloy/zova#readme",
+  "bugs": {
+    "url": "https://github.com/cabloy/zova/issues"
+  },
+  "dependencies": {
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2",
+    "zova": "^5.0.77"
+  },
+  "devDependencies": {
+    "@cabloy/lint": "^4.0.10",
+    "@types/node": "^20.13.0",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "sass": "^1.77.4",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.12",
+    "vue-tsc": "^2.0.19",
+    "zova-vite": "^1.0.77"
+  },
+  "license": "MIT",
+  "gitHead": "d9f253dc18bab2b6684f6314bf39ed38b8481f05"
+}
